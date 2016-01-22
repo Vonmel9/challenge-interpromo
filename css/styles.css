@@ -1,11 +1,13 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial;
 }
 
 header {
   display: inline-block;
   width: 100%;
+  height: 605px;
   background: url(../images/payments-banner-graphic.png) no-repeat;
   background-size: cover;
 }
@@ -32,40 +34,129 @@ nav {
 
 #menu li {
   display: inline-block;
+  margin-left: 15px;
 
 }
 
+#menu li a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
 #create {
+  margin-top: 200px;
   text-align: center;
+  color: #fff;
+}
+
+.button1 {
+  background-color: #fff;
+  width: 325px;
+  height: 45px;
+  border: none;
+  border-radius: 4px;
+}
+
+.button1 a {
+  color: #8080BE;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 #asides {
   width: 100%;
+  height: 310px;
+  color: #766A7A;
 }
 
 .aside {
   display: inline-block;
   width: 33%;
   text-align: center;
+  margin-top: 80px;
+  border-right: 1px solid;
+  border-color: #E0E1E1;
+}
+
+.aside3 {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  margin-top: 80px;
 }
 
 #price {
   width: 100%;
+  height: 315px;
   text-align: center;
+  background-color: #F6F9FB;
+  border-top: 1px solid;
+  border-color: #E0E1E1;
+  padding-top: 85px;
+  color: #766A7A;
+}
+
+.simple {
+
+}
+
+#credit {
+  height: 90px;
+  text-align: center;
+  background-color: #4C535C;
+}
+
+#credit h2 {
+  margin-top: 0;
+  padding-top: 25px;
+  color: #fff;
+}
+
+#articles {
+  vertical-align: middle;
 }
 
 .article {
   display: inline-block;
   width: 49%;
+  vertical-align: middle;
+}
+
+#backbleu {
+  background-color: #7CD5EF;
+}
+
+#backviolet {
+  background-color: #8080BE;
 }
 
 #account {
   width: 100%;
+  height: 285px;
   text-align: center;
+  border-top: 1px solid;
+  border-color: #E0E1E1;
+}
+
+.button2 {
+  background-color: #00B088;
+  width: 205px;
+  height: 45px;
+  border: none;
+  border-radius: 4px;
+}
+
+.button2 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 footer {
   width: 100%;
+  height: 400px;
+  background-color: #242629;
 }
 
 .liste_footer {
